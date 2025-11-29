@@ -1,6 +1,5 @@
 // pages/login.jsx
 import Link from "next/link";
-import "../styles.css";
 
 export default function Login() {
   return (
