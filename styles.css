@@ -1,9 +1,43 @@
 body {
-  background: #000;
-  color: #fff;
-  font-family: Arial;
-  padding: 40px;
+  margin: 0;
+  padding: 0;
+  background: #0d1117; /* deep professional dark */
+  color: white;
+  font-family: "Inter", sans-serif;
 }
-a {
-  color: #00eaff;
+
+input, button {
+  font-family: inherit;
+}
+
+input {
+  padding: 12px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #444;
+  margin-bottom: 15px;
+  background: #161b22;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+  border-color: #17A2B8; /* turquoise blue */
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #17A2B8; /* turquoise */
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #138496; /* darker turquoise */
 }
