@@ -1,6 +1,5 @@
 // pages/dashboard.jsx
 import Link from "next/link";
-import "../styles.css";
 
 const dummyLoads = [
   { id: 1, origin: "Baltimore, MD", destination: "Atlanta, GA", rate: "$2.85 / mile" },
