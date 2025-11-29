@@ -1,39 +1,38 @@
 export default function Home() {
   return (
-    <div className="page-wrapper">
-      <header className="top-bar">
-        <div className="brand">
-          <span className="logo-dot" />
-          <span className="brand-text">LoadLink Connect</span>
-        </div>
-      </header>
+    <div style={{
+      background: "#0d1117",
+      color: "#fff",
+      height: "100vh",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      flexDirection: "column",
+      textAlign: "center",
+      padding: "20px"
+    }}>
+      <h1 style={{ fontSize: "32px", marginBottom: "10px" }}>
+        LoadLink Connect
+      </h1>
 
-      <main className="center-wrap">
-        <div className="card main-card">
-          <h1 className="title">Non-Broker Load Board</h1>
-          <p className="subtitle">
-            Simple, transparent space for shippers and carriers to connect
-            directly — no brokerage, no hidden assignments.
-          </p>
+      <p style={{ fontSize: "18px", opacity: 0.8 }}>
+        Your frontend is live. Let’s build the real app.
+      </p>
 
-          <div className="button-row">
-            <button className="primary-btn">I’m a Shipper</button>
-            <button className="secondary-btn">I’m a Carrier</button>
-          </div>
-
-          <p className="hint">
-            This is your live frontend. You can later link these buttons to real
-            pages like <code>/shipper</code> and <code>/carrier</code>.
-          </p>
-        </div>
-      </main>
-
-      <footer className="footer-mini">
-        <span>© {new Date().getFullYear()} LoadLink Connect</span>
-        <span className="footer-muted">
-          “This platform does not arrange freight or act as a transportation broker.”
-        </span>
-      </footer>
+      <a
+        href="/login"
+        style={{
+          marginTop: "20px",
+          padding: "10px 20px",
+          background: "#2563eb",
+          borderRadius: "8px",
+          color: "#fff",
+          fontSize: "16px",
+          textDecoration: "none"
+        }}
+      >
+        Go to Login
+      </a>
     </div>
   );
 }
