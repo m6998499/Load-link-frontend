@@ -1,9 +1,4 @@
-
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    appDir: false, // Disable the /app directory
-  },
-};
+const nextConfig = {};
 
 module.exports = nextConfig;
